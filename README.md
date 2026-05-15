@@ -16,7 +16,7 @@ API Python con framework Flask corriendo en Docker, con buenas prácticas de pro
 
 Ejecutar en bash  
 
-docker run -d -p 8080:5000 TU_USUARIO/devops-portfolio:latest  
+docker run -d -p 8081:5000 TU_USUARIO/devops-portfolio:latest   ----> En mi versión corre en este puerto ya que lo ocupo en otro programa 
 
 curl http://localhost:8081/health  
 
